@@ -1,0 +1,23 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/Users/jiaru2014/Desktop/ME_Assignment_3/data/logg.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}20 Mar 2016, 16:49:50
+{txt}
+{com}. #delimit cr
+{txt}delimiter now cr
+{com}. set more off
+{txt}
+{com}. 
+. /***************************************************
+> 0. import data
+> ****************************************************/
+. import excel "data/data_assignment4.xls", sheet("Sheet1") firstrow
+{res}{txt}
+{com}. 
+. 
+. 
+{txt}end of do-file
+
+{com}. 
